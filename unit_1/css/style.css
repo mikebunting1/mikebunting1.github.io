@@ -2,6 +2,10 @@ body {
 	background-color: darkgreen;
 }
 
-h1, p {
+h1, h2, p {
 	color: white;
+}
+
+h1, h2 {
+	text-align: center;
 }
