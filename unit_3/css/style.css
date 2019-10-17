@@ -1,0 +1,32 @@
+body {
+	text-align: center;
+	background-color: #08090A /*smoky black*/
+}
+
+/*h1, h2, div {
+	background-image: url("neuralnet.jpg");
+	background-size: cover;
+}*/
+
+h1, h2, p, ul {
+	color: #FAF0CA; /*blond*/
+}
+
+h1 {
+	font-size: 100px;
+	text-decoration: underline overline;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 30px;
+}
+
+p, #datasciencelist {
+	font-size: 20px;
+}
