@@ -27,6 +27,10 @@ h2 {
 	font-size: 30px;
 }
 
-p, #datasciencelist {
+p {
 	font-size: 20px;
+}
+#datasciencelist {
+	font-size: 20px;
+	list-style-type: none;
 }
