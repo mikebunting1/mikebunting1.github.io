@@ -1,17 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Ubuntu&display=swap');
+
 body {
+	line-height: 1.5;
 	text-align: center;
 	background-color: #08090A /*smoky black*/
 }
 
-/*h1, h2, div {
-	background-image: url("neuralnet.jpg");
-	background-size: cover;
-}*/
-
 .hero {
 	background-image: url("../images/neuralnet.jpg");
 	background-size:cover;
-	height:500px;
+	height:550px;
 }
 
 h1, h2, p, ul {
@@ -28,12 +26,20 @@ h2 {
 	font-size: 40px;
 }
 
+.seriffont {
+	font-family: 'Arvo', serif;
+}
+
+.sansfont {
+	font-family: 'Ubuntu', sans-serif;
+}
+
 #slogan {
 	font-style: italic;
 	font-size: 30px;
 }
 
-p {
+.par {
 	font-size: 20px;
 }
 #datasciencelist {
