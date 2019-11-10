@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Ubuntu&display=swap');
+
+* {
+    color: #FAF0CA; /*blond*/
+}
+
+.wrapper {
+    background-color: #08090A; /*smoky black*/
+}
+
+.sidenav > a {
+    display: block;
+    margin: 10px;
+    float: right;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#heading {
+    font-size: 100px;
+    text-decoration: underline overline;
+    margin-top: 20px;
+    margin-left: 315px;
+}
+
+#heading2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.hero {
+    background-image: url("../images/neuralnet.jpg");
+    background-size:cover;
+    height:550px;
+    color: white;
+    font-family: 'Arvo', serif;
+}
+
+body {
+    line-height: 1.5;
+    text-align: center;
+    background-color: #08090A*/ /*smoky black*/
+}
+
+.body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+}
+
+.sansfont {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#slogan {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.par {
+    font-size: 20px;
+}
+#datasciencelist {
+    font-size: 20px;
+    list-style-type: none;
+}
+

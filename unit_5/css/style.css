@@ -23,6 +23,13 @@ aside {
     padding: 20px;
 }
 
+.sidenav > a {
+	/*float: right;*/
+	display: block;
+	margin: 10px;
+	float: right;
+}
+
 article {
     background-color: #E89C6C;
     border: 1px black solid;
