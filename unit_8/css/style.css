@@ -1,0 +1,125 @@
+
+.wrapper {
+	background-color: #08090A; /*smoky black*/
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.sidenav > a {
+    display: block;
+    margin: 10px;
+    margin-top: 0px;
+    float: right;
+    font-size: 1.5em;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    text-align:center;
+    font-size: 2em;
+}
+
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    text-align:center;
+}
+
+#tagline {
+    font-size: 1.5em;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    /*padding: 20px;*/
+/*    float: left;
+*/    width: 31%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    /*padding: 20px;*/
+    /*float: right;   */
+    width: 61%;
+}
+
+.sansfont {
+    font-size: 1.5em;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+    text-align:center;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  #left {
+    width: 15em;
+  }
+
+  #right {
+    width: 30em;
+  }
+
+  .sansfont {
+    font-size: 1em;
+}
+
+  .wrapper {
+    font-size: 1.5em;    
+  }
+
+  header {
+    font-size: 1em;
+  }
+
+  .sidenav > a {
+    font-size: .8em;
+  }
+
+  #tagline {
+    font-size: 1em;
+}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  #two_column {
+    display: block;
+  }
+
+   #left, #right {
+    width: 21em;
+    font-size: .68em;
+    margin-bottom: 20px;
+  }
+
+}
